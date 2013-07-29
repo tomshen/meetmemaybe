@@ -1,6 +1,6 @@
 # Meet Me Maybe
 
-A webapp to coordinate meeting with other people. Built for [Lisp in Summer Projects](http://lispinsummerprojects.org/).
+A webapp to coordinate meetings with other people. Built for [Lisp in Summer Projects](http://lispinsummerprojects.org/).
 
 ## License
 

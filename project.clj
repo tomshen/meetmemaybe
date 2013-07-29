@@ -1,5 +1,5 @@
 (defproject meetmemaybe "0.0.1"
-  :description "A webapp to coordinate meeting with other people."
+  :description "A webapp to coordinate meetings with other people."
   :url "https://github.com/tomshen/meetmemaybe"
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"}
