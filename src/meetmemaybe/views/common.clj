@@ -1,6 +1,6 @@
 (ns meetmemaybe.views.common
   (:use [noir.core :only [defpartial]]
-        [hiccup.page :only [include-css html5]]))
+        [hiccup.page :only [include-css include-js html5]]))
 
 (defpartial layout [& content]
             (html5
@@ -11,4 +11,5 @@
                 (include-css "/css/normalize.css")]
               [:body
                 [:header [:h1 "Meet Me Maybe"]]
-                [:div#container content]]))
+                [:div#container content]
+                (include-js "/js/main.js")]))
